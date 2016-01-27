@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5908D8F1C589B7D008B3835 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5908D8E1C589B7D008B3835 /* main.m */; };
+		B5908D921C589B7D008B3835 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5908D911C589B7D008B3835 /* AppDelegate.m */; };
+		B5908D951C589B7D008B3835 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5908D941C589B7D008B3835 /* ViewController.m */; };
+		B5908D981C589B7D008B3835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5908D961C589B7D008B3835 /* Main.storyboard */; };
+		B5908D9A1C589B7D008B3835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5908D991C589B7D008B3835 /* Assets.xcassets */; };
+		B5908D9D1C589B7D008B3835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5908D9B1C589B7D008B3835 /* LaunchScreen.storyboard */; };
+		B5908DA81C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5908DA71C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests.m */; };
+		B5908DB31C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5908DB21C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5908DA41C589B7D008B3835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5908D821C589B7D008B3835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5908D891C589B7D008B3835;
+			remoteInfo = Ton_ConnectionFuture_V2;
+		};
+		B5908DAF1C589B7D008B3835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5908D821C589B7D008B3835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5908D891C589B7D008B3835;
+			remoteInfo = Ton_ConnectionFuture_V2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5908D8A1C589B7D008B3835 /* Ton_ConnectionFuture_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ton_ConnectionFuture_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5908D8E1C589B7D008B3835 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5908D901C589B7D008B3835 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5908D911C589B7D008B3835 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5908D931C589B7D008B3835 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5908D941C589B7D008B3835 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5908D971C589B7D008B3835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5908D991C589B7D008B3835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5908D9C1C589B7D008B3835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5908D9E1C589B7D008B3835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5908DA31C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ton_ConnectionFuture_V2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5908DA71C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ton_ConnectionFuture_V2Tests.m; sourceTree = "<group>"; };
+		B5908DA91C589B7D008B3835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5908DAE1C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ton_ConnectionFuture_V2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5908DB21C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ton_ConnectionFuture_V2UITests.m; sourceTree = "<group>"; };
+		B5908DB41C589B7D008B3835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5908D871C589B7D008B3835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5908DA01C589B7D008B3835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5908DAB1C589B7D008B3835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5908D811C589B7D008B3835 = {
+			isa = PBXGroup;
+			children = (
+				B5908D8C1C589B7D008B3835 /* Ton_ConnectionFuture_V2 */,
+				B5908DA61C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests */,
+				B5908DB11C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests */,
+				B5908D8B1C589B7D008B3835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5908D8B1C589B7D008B3835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5908D8A1C589B7D008B3835 /* Ton_ConnectionFuture_V2.app */,
+				B5908DA31C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests.xctest */,
+				B5908DAE1C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5908D8C1C589B7D008B3835 /* Ton_ConnectionFuture_V2 */ = {
+			isa = PBXGroup;
+			children = (
+				B5908D901C589B7D008B3835 /* AppDelegate.h */,
+				B5908D911C589B7D008B3835 /* AppDelegate.m */,
+				B5908D931C589B7D008B3835 /* ViewController.h */,
+				B5908D941C589B7D008B3835 /* ViewController.m */,
+				B5908D961C589B7D008B3835 /* Main.storyboard */,
+				B5908D991C589B7D008B3835 /* Assets.xcassets */,
+				B5908D9B1C589B7D008B3835 /* LaunchScreen.storyboard */,
+				B5908D9E1C589B7D008B3835 /* Info.plist */,
+				B5908D8D1C589B7D008B3835 /* Supporting Files */,
+			);
+			path = Ton_ConnectionFuture_V2;
+			sourceTree = "<group>";
+		};
+		B5908D8D1C589B7D008B3835 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5908D8E1C589B7D008B3835 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5908DA61C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B5908DA71C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests.m */,
+				B5908DA91C589B7D008B3835 /* Info.plist */,
+			);
+			path = Ton_ConnectionFuture_V2Tests;
+			sourceTree = "<group>";
+		};
+		B5908DB11C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5908DB21C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests.m */,
+				B5908DB41C589B7D008B3835 /* Info.plist */,
+			);
+			path = Ton_ConnectionFuture_V2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5908D891C589B7D008B3835 /* Ton_ConnectionFuture_V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5908DB71C589B7D008B3835 /* Build configuration list for PBXNativeTarget "Ton_ConnectionFuture_V2" */;
+			buildPhases = (
+				B5908D861C589B7D008B3835 /* Sources */,
+				B5908D871C589B7D008B3835 /* Frameworks */,
+				B5908D881C589B7D008B3835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ton_ConnectionFuture_V2;
+			productName = Ton_ConnectionFuture_V2;
+			productReference = B5908D8A1C589B7D008B3835 /* Ton_ConnectionFuture_V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5908DA21C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5908DBA1C589B7D008B3835 /* Build configuration list for PBXNativeTarget "Ton_ConnectionFuture_V2Tests" */;
+			buildPhases = (
+				B5908D9F1C589B7D008B3835 /* Sources */,
+				B5908DA01C589B7D008B3835 /* Frameworks */,
+				B5908DA11C589B7D008B3835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5908DA51C589B7D008B3835 /* PBXTargetDependency */,
+			);
+			name = Ton_ConnectionFuture_V2Tests;
+			productName = Ton_ConnectionFuture_V2Tests;
+			productReference = B5908DA31C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5908DAD1C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5908DBD1C589B7D008B3835 /* Build configuration list for PBXNativeTarget "Ton_ConnectionFuture_V2UITests" */;
+			buildPhases = (
+				B5908DAA1C589B7D008B3835 /* Sources */,
+				B5908DAB1C589B7D008B3835 /* Frameworks */,
+				B5908DAC1C589B7D008B3835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5908DB01C589B7D008B3835 /* PBXTargetDependency */,
+			);
+			name = Ton_ConnectionFuture_V2UITests;
+			productName = Ton_ConnectionFuture_V2UITests;
+			productReference = B5908DAE1C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5908D821C589B7D008B3835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王光旭";
+				TargetAttributes = {
+					B5908D891C589B7D008B3835 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B5908DA21C589B7D008B3835 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B5908D891C589B7D008B3835;
+					};
+					B5908DAD1C589B7D008B3835 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B5908D891C589B7D008B3835;
+					};
+				};
+			};
+			buildConfigurationList = B5908D851C589B7D008B3835 /* Build configuration list for PBXProject "Ton_ConnectionFuture_V2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5908D811C589B7D008B3835;
+			productRefGroup = B5908D8B1C589B7D008B3835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5908D891C589B7D008B3835 /* Ton_ConnectionFuture_V2 */,
+				B5908DA21C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests */,
+				B5908DAD1C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5908D881C589B7D008B3835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5908D9D1C589B7D008B3835 /* LaunchScreen.storyboard in Resources */,
+				B5908D9A1C589B7D008B3835 /* Assets.xcassets in Resources */,
+				B5908D981C589B7D008B3835 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5908DA11C589B7D008B3835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5908DAC1C589B7D008B3835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5908D861C589B7D008B3835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5908D951C589B7D008B3835 /* ViewController.m in Sources */,
+				B5908D921C589B7D008B3835 /* AppDelegate.m in Sources */,
+				B5908D8F1C589B7D008B3835 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5908D9F1C589B7D008B3835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5908DA81C589B7D008B3835 /* Ton_ConnectionFuture_V2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5908DAA1C589B7D008B3835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5908DB31C589B7D008B3835 /* Ton_ConnectionFuture_V2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5908DA51C589B7D008B3835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5908D891C589B7D008B3835 /* Ton_ConnectionFuture_V2 */;
+			targetProxy = B5908DA41C589B7D008B3835 /* PBXContainerItemProxy */;
+		};
+		B5908DB01C589B7D008B3835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5908D891C589B7D008B3835 /* Ton_ConnectionFuture_V2 */;
+			targetProxy = B5908DAF1C589B7D008B3835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5908D961C589B7D008B3835 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5908D971C589B7D008B3835 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5908D9B1C589B7D008B3835 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5908D9C1C589B7D008B3835 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5908DB51C589B7D008B3835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5908DB61C589B7D008B3835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5908DB81C589B7D008B3835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ton_ConnectionFuture_V2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-ConnectionFuture-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5908DB91C589B7D008B3835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ton_ConnectionFuture_V2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-ConnectionFuture-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5908DBB1C589B7D008B3835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ton_ConnectionFuture_V2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-ConnectionFuture-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ton_ConnectionFuture_V2.app/Ton_ConnectionFuture_V2";
+			};
+			name = Debug;
+		};
+		B5908DBC1C589B7D008B3835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ton_ConnectionFuture_V2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-ConnectionFuture-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ton_ConnectionFuture_V2.app/Ton_ConnectionFuture_V2";
+			};
+			name = Release;
+		};
+		B5908DBE1C589B7D008B3835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Ton_ConnectionFuture_V2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-ConnectionFuture-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ton_ConnectionFuture_V2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B5908DBF1C589B7D008B3835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Ton_ConnectionFuture_V2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-ConnectionFuture-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ton_ConnectionFuture_V2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5908D851C589B7D008B3835 /* Build configuration list for PBXProject "Ton_ConnectionFuture_V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5908DB51C589B7D008B3835 /* Debug */,
+				B5908DB61C589B7D008B3835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5908DB71C589B7D008B3835 /* Build configuration list for PBXNativeTarget "Ton_ConnectionFuture_V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5908DB81C589B7D008B3835 /* Debug */,
+				B5908DB91C589B7D008B3835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5908DBA1C589B7D008B3835 /* Build configuration list for PBXNativeTarget "Ton_ConnectionFuture_V2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5908DBB1C589B7D008B3835 /* Debug */,
+				B5908DBC1C589B7D008B3835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5908DBD1C589B7D008B3835 /* Build configuration list for PBXNativeTarget "Ton_ConnectionFuture_V2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5908DBE1C589B7D008B3835 /* Debug */,
+				B5908DBF1C589B7D008B3835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5908D821C589B7D008B3835 /* Project object */;
+}
